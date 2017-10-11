@@ -2,5 +2,14 @@
 {% block body %}
 <h1> Math App </h1>
 
-This is the Math App landing page.
+<form action="" method="GET">
+  <label for="textForHashing">Text to Hash</label>
+  <textarea class="u-full-width" name="text4hash" placeholder="{{current_text}}" id="textForHashing"></textarea>
+  <input class="button-primary" type="submit" value="Submit">
+</form>
+
+{% if hash %}
+<hr>
+<div> Hash: {{hash}} </div>
+{% endif %}
 {% endblock %}
