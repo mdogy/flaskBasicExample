@@ -16,4 +16,4 @@ class TestMathAppInt(unittest.TestCase):
     def test_index_title(self):
         rv = self.app.get('/')
         soup = BeautifulSoup(rv.data, "html.parser")
-        self.assertEqual(soup.title.text.strip(), 'Mathapp homepage')
+        self.assertEqual(soup.title.text.strip(), 'Math App homepage')
