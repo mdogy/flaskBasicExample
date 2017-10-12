@@ -1,0 +1,38 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+
+[packages]
+
+appnope = "==0.1.0"
+"beautifulsoup4" = "==4.6.0"
+certifi = "==2017.7.27.1"
+chardet = "==3.0.4"
+click = "==6.7"
+decorator = "==4.1.2"
+flask = "*"
+idna = "==2.6"
+ipython = "*"
+"ipython-genutils" = "==0.2.0"
+itsdangerous = "==0.24"
+jedi = "==0.11.0"
+"jinja2" = "==2.9.6"
+markupsafe = "==1.0"
+parso = "==0.1.0"
+pexpect = "==4.2.1"
+pickleshare = "==0.7.4"
+"prompt-toolkit" = "==1.0.15"
+ptyprocess = "==0.5.2"
+py = "==1.4.34"
+pygments = "==2.2.0"
+pytest = "==3.2.3"
+requests = "==2.18.4"
+simplegeneric = "==0.8.1"
+traitlets = "==4.3.2"
+"urllib3" = "==1.22"
+wcwidth = "==0.1.7"
+werkzeug = "==0.12.2"
+gunicorn = "==19.7.1"
